@@ -1,0 +1,16 @@
+body {
+  background-color: #000000;
+}
+h1 {
+  color: white;
+  font-family: verdana;
+}
+p {
+  color: white;
+}
+img#logo{
+  background-color: wheat;
+}
+img#concierto{
+  width: 70%; /*80% tarea*/
+}
