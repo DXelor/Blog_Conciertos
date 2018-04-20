@@ -1,18 +1,149 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-with, inital-scale=0.1, user-scalable=no">
-    <title>Blog de Conciertos</title>
-    <link rel="stylesheet" href="css/estilos.css">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+  <meta name="keywords" content="Metal, white wizzard">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Andika" rel="stylesheet">
+  <title>Blog de Musica</title>
+</head>
+
+<body class="bg-dark text-white mt-3">
+
+  <div class="container-fluid">
+    <!--Contenedor principal-->
     <header>
-      <h1><img id="logo" src="img/concert_logo.png">Tu Concierto</h1>
+      <!--Header y Nav-->
+      <div class="row ml-5 mt-3">
+        <div class="col-sm-12 col-md-12 col-lg d-flex flex-column">
+          <div class="row d-flex flex-sm-column flex-md-row align-items-sm-center align-items-md-start"><img src="img/Logo_Metal.jpg" alt="logo metal" width="200" class="rounded-circle"><div id="Titulo" class="d-flex flex-sm-column align-self-center pl-3 h1 font-weight-bold">MegaMetal</div>
+          </div>
+        </div>
+        <div class="offset-lg-6 col-sm-12 col-md-12 col-lg-3 d-flex align-items-end justify-content-center mt-3">
+          <div id="Social_Icons" class="d-flex flex-row">
+          	<ul class="nav justify-content-end d-flex flex-nowrap">
+            	<a class="nav-link active"><img src="img/social_icons/facebook_icon.png"></a>
+            	<a class="nav-link"><img src="img/social_icons/spotify_icon.png"></a>
+            	<a class="nav-link"><img src="img/social_icons/youtube_icon.png"></a>
+            	<a class="nav-link"><img src="img/social_icons/twitter_icon.png"></a>
+            	<a class="nav-link"><img src="img/social_icons/instagram_icon.png"></a>
+          	</ul>
+          </div>
+        </div>
+			</div>
+      <div class="container-fluid m-3">
+        <ul class="nav nav-tabs nav-sm-fluid navbar-inverse text-center mr-4">
+          <li class="col-sm-12 col-md-4 col-lg-2 nav-item">
+            <a class="nav-link h4 " href="#">Inicio</a>
+          </li>
+          <li class="col-sm-12 col-md-4 col-lg-2 nav-item">
+            <a class="nav-link h4 " href="#">Grupos</a>
+          </li>
+          <li class="col-sm-12 col-md-4 col-lg-2 nav-item">
+            <a class="nav-link h4 " href="#">Artistas</a>
+          </li>
+          <li class="col-sm-12 col-md-4 col-lg-2 nav-item">
+            <a class="nav-link h4 " href="#">Top 10</a>
+          </li>
+          <li class="col-sm-12 col-md-4 col-lg-2 nav-item">
+            <a class="nav-link h4 " href="#">Letras</a>
+          </li>
+          <li class="col-sm-12 col-md-4 col-lg-2 nav-item">
+            <a class="nav-link h4 " href="#">Acordes</a>
+          </li>
+        </ul>
+      </div>
     </header>
-    <section>
-      <p>Bienvenido a este blog de conciertos.</p>
-      <img id="concierto" src="img/concert.jpg" alt="imagen del concierto" title="Concierto">
-    </section>
-  </body>
+    <div class="row">
+      <!--Contenedor del primer contenido-->
+      <div class="col-sm-12 col-md-9">
+        <div class="col-12">
+          <div class="col-sm-12 col-md-7 col-lg-8 col-order-sm-12">
+          	<!--Texto del primer contenido-->
+          	<h3>Rhapsody of Fire</h3>
+          	<p>  
+             	&#40;&laquo;Rapsodia del Fuego&raquo;&#44; en inglés&#41;&#44; anteriormente Rhapsody&#44; es una banda italiana de power metal sinfónico formada en Trieste&#44; por Luca Turilli &#40;guitarrista&#41; y Alex Staropoli &#40;teclista&#41; en 1993&#46; Su primer nombre fue Thundercross&#44; con el que sacaron un EP&#46; Posteriormente cambiaron su nombre a &laquo;Rhapsody&raquo;&#44; con el cual serían mundialmente conocidos&#44; para finalmente en el 2006 y&#44; debido a problemas legales&#44; modificar su nombre a &laquo;Rhapsody of Fire&raquo;&#46;
+          	</p>
+          	<p>
+            	Rhapsody se ha caracterizado por ser una banda pionera e innovadora y creadora de su propio estilo musical&#44; en donde se marcan en cada una de sus canciones grandes arreglos orquestales&#44; guitarras virtuosas que se pueden diferenciar fácilmente de cualquier otra banda&#44; siempre bien acompañados de un teclado y bajo bien elaborados&#44; sin olvidar la voz de Fabio Lione&#44; que demuestra una gran destreza vocal efectuando estilos vocales desde un tenor de ópera hasta incluso voz gutural&#46;
+          	</p>
+          </div>
+          <!--Imagen del primer contenido-->
+          <div class="col-sm-12 col-md-5 col-lg-4 d-flex flex-row justify-content-start
+          mb-3">
+          	<img src="img/rhapsody_of_fire/ROF.jpg" alt="Foto white wizzard" class="img-fluid align-self-center thumbnail">
+          </div>
+        </div>
+        <br>
+        <!--Comentario del primer contenido-->
+        <div class="col-12 d-flex">
+          <div class="d-flex">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          </div>
+          <div class="col-12 d-flex">
+            <textarea class="form-control" rows="1" id="comment" placeholder="Comentario"></textarea>
+          </div>
+        </div>
+        <br>
+        <!--Contenedor del segundo contenido-->
+        <div class="col-12 d-flex flex-wrap">
+          <div class="col-sm-12 col-md-7 col-lg-6 order-2">
+           	<!--Texto del segundo contenido-->
+            <h3>Historia</h3>
+            <p>  
+              Se formó en la ciudad de Trieste, Italia, cuando Luca Turilli y Alex Staropoli, se juntaron para realizar su ambicioso plan. Reclutaron a Daniele Carbonera para la batería y se lanzaron a los escenarios con el nombre &laquo;Thundercross&raquo;, con Christiano Adacher a las voces y coros.
+            </p>
+            <br>
+            <p>
+              Sólo un año después de haberse reunido, deciden entrar a estudio y grabar su primer demo, el cual hoy es una reliquia, ya que sólo fueron editadas unas cuantas copias en casete. Este demo llevó por nombre Land of Immortals, que contaba sólo con cuatro canciones de bastante mala calidad &#40;en cuanto a grabación&#41;. Cabe destacar que Sascha Paeth, bajista de Heaven's Gate, además de producir ambos demos, grabó los bajos para este primero.
+            </p>
+            <br>
+            <p>
+              En 1996 Christiano Adacher debe dejar la banda, por lo que contactaron con Joe Terry (nombre que Lione utilizaba como vocalista de Labyrinth) y tras discrepancias entre él y Turilli, se unió a la banda. Con una formación compuesta por Lione, Turilli, Staropoli, Carbonera y Furlan, en 1997 lanzan su álbum debut, Legendary Tales, álbum de diez canciones con introducción a la Emerald Sword Saga.
+            </p>
+          </div>
+          <!--Imagen del segundo contenido-->
+          <div class="col-sm-12 col-md-5 col-lg-6 d-flex order-1">
+          	<img src="img/rhapsody_of_fire/SOEL.jpg" alt="Foto white wizzard" class="img-fluid align-self-center thumbnail mb-3">
+          </div>
+          <!--Comentario del segundo contenido-->
+          <div class="col-12 d-flex order-3">
+						<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+            <div class="col-12 d-flex">
+              <textarea class="form-control" rows="1" id="comment" placeholder="Comentario"></textarea>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <div class="d-none d-md-block col-md-3">
+       	<label for="search"><span class="glyphicon glyphicon-search"></span>
+       		<input type="search" placeholder="buscar" class="text-dark">
+       	</label>
+        <ul class="list-group mt-3 mr-4">
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Legendary Tales</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Symphony of Enchanted Lands</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Dawn of Victory</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Rain of a Thousand Flames</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Power of the Dragonflame</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Symphony of Enchanted Lands II: The Dark Secret</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Triumph or Agony</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">The Frozen Tears of Angels</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">From Chaos To Eternity</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Dark Wings of Steel</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Into The Legend</a></li>
+					<li class="list-group-item bg-dark"><a class="text-info" href="#">Legendary years</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>
